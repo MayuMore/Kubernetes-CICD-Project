@@ -6,7 +6,7 @@ spec:
    replicas: 2
    selector:      # tells the controller which pods to watch/belong to
     matchLabels:
-     app: mrdevopskube-proj-mayuri2711
+     app: kube-proj-mayuri2711
    template:
       metadata:
         labels:
@@ -14,7 +14,7 @@ spec:
       spec:
        containers:
         - name: kube-proj-mayuri2711
-          image: vikashashoke/mayuri2711/kubernetes-pipeline
+          image: mayuri2711/kubernetes-pipeline
           imagePullPolicy: Always
           ports:
           - containerPort: 80
