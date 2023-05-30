@@ -36,7 +36,7 @@ Before setting up the CI/CD pipeline, ensure you have the following prerequisite
 
 1) A GitHub and dockerhub account
 2) EC2 instance no 1 :- Jenkins Installtion
-EC2 instance no 1:- Ansible, docker, kubernetes Installtion
+EC2 instance no 2:- Ansible, docker, kubernetes Installtion
 EC2 instance no 3:- Docker, Kubernetes installtion
 3) SSH Connection configuration between all three servers
 
