@@ -10,19 +10,26 @@ This project demonstrates the implementation of a Continuous Integration and Con
 
 ## Architecture Overview
 
-### GitHub: The source code repository where the application code is stored and version-controlled.
+### 1) GitHub: 
+The source code repository where the application code is stored and version-controlled.
 
-### Jenkins: The CI/CD server responsible for managing the pipeline. It listens for changes in the GitHub repository and triggers the build and deployment process using Github Webhook.
+### 2) Jenkins: 
+The CI/CD server responsible for managing the pipeline. It listens for changes in the GitHub repository and triggers the build and deployment process using Github Webhook.
 
-### EC2: The virtual machine hosting the Jenkins server. It is responsible for running Jenkins and executing pipeline stages.
+### 3) EC2: 
+The virtual machine hosting the Jenkins server. It is responsible for running Jenkins and executing pipeline stages.
 
-### Ansible: The configuration management tool used to provision and configure the Kubernetes cluster using docker images.
+### 4) Ansible: 
+The configuration management tool used to provision and configure the Kubernetes cluster using docker images.
 
-#### Docker: The containerization platform used to package the application and its dependencies into a Docker image.
+#### 5) Docker: 
+The containerization platform used to package the application and its dependencies into a Docker image.
 
-### Docker Hub: The container registry where Docker images are stored.
+### 6) Docker Hub: 
+The container registry where Docker images are stored.
 
-### Kubernetes: The container orchestration platform responsible for deploying and managing the application containers.
+### 7) Kubernetes: 
+The container orchestration platform responsible for deploying and managing the application containers.
 
 ## Prerequisites
 Before setting up the CI/CD pipeline, ensure you have the following prerequisites:
